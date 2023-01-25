@@ -30,10 +30,6 @@ li {
     list-style: none;
 }
 
-.navbar-nav {
-    background-color: #36626b;
-    padding: 22px;
-}
 
 a {
     text-decoration: none;
@@ -50,6 +46,9 @@ a {
 .cuarto-color {
     color: #ff9d00;
     font-family: bebas;
+}
+.quinto-color{
+    color: #000000;
 }
 
 .btn {
