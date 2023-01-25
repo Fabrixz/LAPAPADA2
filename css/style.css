@@ -11,7 +11,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1,h2,h3,h4,h5,h6,p,a,li{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
     font-family: bebas;
 }
 
@@ -21,6 +30,11 @@ li {
     list-style: none;
 }
 
+.navbar-nav {
+    background-color: #36626b;
+    padding: 22px;
+}
+
 a {
     text-decoration: none;
 }
@@ -28,13 +42,16 @@ a {
 .second-color {
     color: #C69749;
 }
-.tercer-color{
+
+.tercer-color {
     color: #e5e5e5;
 }
-.cuarto-color{
+
+.cuarto-color {
     color: #ff9d00;
     font-family: bebas;
 }
+
 .btn {
     color: #C69749;
     background-color: #36626b;
@@ -106,6 +123,7 @@ nav ul {
     align-items: flex-start;
 
 }
+
 .hero-imagen {
     display: flex;
     justify-content: center;
@@ -144,7 +162,8 @@ nav ul {
     width: 100%;
     margin: 0 auto;
 }
-#margen-fila-menu{
+
+#margen-fila-menu {
     margin-top: 1em;
 }
 
@@ -153,7 +172,7 @@ nav ul {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 4rem;
     row-gap: 4rem;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
 }
 
 .plato-carta {
@@ -255,7 +274,7 @@ ul {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
 }
 
-.contact-wrapper > * {
+.contact-wrapper>* {
     padding: 1em;
 }
 
@@ -294,7 +313,7 @@ ul {
 }
 
 .contact-form form button {
-    background:#C69749;
+    background: #C69749;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -310,26 +329,27 @@ ul {
 
 /* CONTACT INFO */
 .contact-info {
-    background: rgba(255, 255, 255,.3);
+    background: rgba(255, 255, 255, .3);
 }
 
-.contact-info h4, .contact-info ul, .contact-info p {
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
 }
 
 /* LARGE SIZE */
 @media(min-width: 700px) {
-    body {
-        padding: 0 4em;
-    }
     .contact-wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
-    .contact-wrapper > * {
+
+    .contact-wrapper>* {
         padding: 2em;
     }
+
     .contact-info h4,
     .contact-info ul,
     .contact-info p {
