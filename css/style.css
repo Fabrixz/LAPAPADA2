@@ -47,7 +47,8 @@ a {
     color: #ff9d00;
     font-family: bebas;
 }
-.quinto-color{
+
+.quinto-color {
     color: #000000;
 }
 
@@ -61,16 +62,19 @@ a {
 
 }
 
+
 .header {
     background-color: #20150e;
     font-family: bebas;
-    height: 70px;
-    font-size: 32px;
+    height: 60px;
+    font-size: 24px;
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 1;
 }
+
+
 
 .herobg {
 
@@ -86,8 +90,28 @@ a {
     justify-content: center;
 }
 
+.hover-me {
+    background-color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+}
 
+.hover-me:hover {
+    background-color: #443226;
+    color: #ff9d00;
+    cursor: pointer;
+}
 
+.hover-nav {
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-nav:hover {
+    border-bottom: 2px solid #ff9d00;
+    padding-bottom: 6px;
+    transition: all 0.3s ease-in-out;
+}
 
 
 
@@ -161,7 +185,7 @@ a {
 .plato-carta {
     display: flex;
     align-items: center;
-    border: 1px solid #16ddcd;
+    border: 2px solid #aa791d;
     border-radius: 6px;
     margin-top: 2em;
 }
@@ -183,13 +207,22 @@ a {
     border-top: none;
     flex-basis: 60%;
     padding: 0 1rem;
+    font-size: 10px;
+    justify-content: center;
+}
+
+.title-plato-carta p {
+    font-family: bebas;
+    font-size: 78%;
 }
 
 .precio-plato-carta {
     display: flex;
     flex-basis: 15%;
     justify-content: center;
-    font-weight: bold;
+    font-family: bebas;
+    font-size: 20px;
+
 }
 
 
@@ -287,7 +320,7 @@ ul {
 .contact-form form input,
 .contact-form form textarea {
     width: 100%;
-    padding: .7em;
+    padding: .1em;
     border: none;
     background: none;
     outline: 0;
