@@ -1,0 +1,22 @@
+{
+  "name": "lapapada2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000l\u0000a\u0000p\u0000a\u0000p\u0000a\u0000d\u0000a\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --path ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabrixz/LAPAPADA2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabrixz/LAPAPADA2/issues"
+  },
+  "homepage": "https://github.com/Fabrixz/LAPAPADA2#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
