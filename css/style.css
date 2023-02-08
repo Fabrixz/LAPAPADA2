@@ -1,17 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@900&display=swap');
-
-
-@font-face {
-    font-family: bebas;
-    src: url(../assets/font/BebasNeue-Regular.ttf);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 h1,
 h2,
 h3,
@@ -29,7 +15,6 @@ ol,
 li {
     list-style: none;
 }
-
 
 a {
     text-decoration: none;
@@ -59,9 +44,18 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
+.hover-me {
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-me:hover {
+    background-color: #443226;
+    color: #ff9d00;
+    cursor: pointer;
+}
 
 .header {
     background-color: #20150e;
@@ -72,33 +66,6 @@ a {
     top: 0;
     width: 100%;
     z-index: 1;
-}
-
-
-
-.herobg {
-
-    background-position: center;
-    background-size: cover;
-    color: #000000;
-    font-family: bebas;
-    font-size: 40px;
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hover-me {
-    background-color: rgb(255, 255, 255);
-    transition: all 0.3s ease-in-out;
-}
-
-.hover-me:hover {
-    background-color: #443226;
-    color: #ff9d00;
-    cursor: pointer;
 }
 
 .hover-nav {
@@ -113,11 +80,18 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-
-
-
-
-
+.herobg {
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+    font-family: bebas;
+    font-size: 40px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .hero {
     background-attachment: absolute;
@@ -128,7 +102,6 @@ a {
     height: 75vh;
     display: flex;
     align-items: flex-start;
-
 }
 
 .hero-imagen {
@@ -144,27 +117,20 @@ a {
     gap: 10px;
 }
 
-
 .hero__contenedor p {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     padding-right: 150px;
     margin: 15px 0;
     color: #cfa544;
-
 }
 
 .hero__titulo {
     font-family: bebas;
     font-size: 80px;
     color: #ff9d00;
-
 }
 
-
-
-
-/** MENU CSS**/
 .wrap {
     width: 100%;
     margin: 0 auto;
@@ -176,9 +142,9 @@ a {
 
 .column-2.carta {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 4rem;
-    row-gap: 4rem;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
     justify-content: space-evenly;
 }
 
@@ -192,8 +158,9 @@ a {
 
 .img-plato-carta {
     display: flex;
-    flex-basis: 25%;
+    flex-basis: 15%;
     justify-content: center;
+    object-fit: cover;
 }
 
 .img-plato-carta img {
@@ -205,7 +172,7 @@ a {
     border: 1px solid #e5e5e5;
     border-bottom: none;
     border-top: none;
-    flex-basis: 60%;
+    flex-basis: 40%;
     padding: 0 1rem;
     font-size: 10px;
     justify-content: center;
@@ -218,44 +185,13 @@ a {
 
 .precio-plato-carta {
     display: flex;
-    flex-basis: 15%;
+    flex-basis: 50%;
     justify-content: center;
     font-family: bebas;
-    font-size: 20px;
-
+    font-size: 30px;
+    object-fit: cover;
 }
 
-
-
-/**ESTO ES EL form que no se como seguiiiir**/
-
-.main {
-    background: #4b260e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*PRUEBA DE FORM*/
 * {
     box-sizing: border-box;
 }
@@ -287,7 +223,7 @@ ul {
 }
 
 .contact-wrapper {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
 }
 
 .contact-wrapper>* {
@@ -345,7 +281,7 @@ ul {
 
 /* CONTACT INFO */
 .contact-info {
-    background: rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .contact-info h4,
@@ -355,8 +291,7 @@ ul {
     margin: 0 0 1rem 0;
 }
 
-/* LARGE SIZE */
-@media(min-width: 700px) {
+@media (min-width: 700px) {
     .contact-wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;

@@ -1,0 +1,61 @@
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#margen-fila-menu {
+    margin-top: 1em;
+}
+
+.column-2.carta {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.plato-carta {
+    display: flex;
+    align-items: center;
+    border: 2px solid #aa791d;
+    border-radius: 6px;
+    margin-top: 2em;
+}
+
+.img-plato-carta {
+    display: flex;
+    flex-basis: 15%;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.img-plato-carta img {
+    max-width: 100px;
+    max-height: 75px;
+}
+
+.title-plato-carta {
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 40%;
+    padding: 0 1rem;
+    font-size: 10px;
+    justify-content: center;
+}
+
+.title-plato-carta p {
+    font-family: bebas;
+    font-size: 16px;
+}
+
+.precio-plato-carta {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    font-family: bebas;
+    font-size: 30px;
+    object-fit: cover;
+
+}
