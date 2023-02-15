@@ -8,28 +8,35 @@ h6,
 p,
 a,
 li {
-  font-family: bebas; }
+  font-family: bebas;
+}
 
 ul,
 ol,
 li {
-  list-style: none; }
+  list-style: none;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .second-color {
-  color: #C69749; }
+  color: #C69749;
+}
 
 .tercer-color {
-  color: #e5e5e5; }
+  color: #e5e5e5;
+}
 
 .cuarto-color {
   color: #ff9d00;
-  font-family: bebas; }
+  font-family: bebas;
+}
 
 .quinto-color {
-  color: #000000; }
+  color: #000000;
+}
 
 .btn {
   color: #C69749;
@@ -37,25 +44,29 @@ a {
   font-family: bebas;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .hover-me {
   background-color: white;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .hover-me:hover {
   background-color: #443226;
   color: #ff9d00;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 @font-face {
   font-family: bebas;
-  src: url(../assets/font/BebasNeue-Regular.ttf); }
-
+  src: url(../assets/font/BebasNeue-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 h1,
 h2,
@@ -66,15 +77,18 @@ h6,
 p,
 a,
 li {
-  font-family: bebas; }
+  font-family: bebas;
+}
 
 ul,
 ol,
 li {
-  list-style: none; }
+  list-style: none;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .header {
   background-color: #20150e;
@@ -84,17 +98,20 @@ a {
   position: sticky;
   top: 0;
   width: 100%;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .hover-nav {
   border-bottom: 2px solid black;
   padding-bottom: 2px;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .hover-nav:hover {
   border-bottom: 2px solid #ff9d00;
   padding-bottom: 6px;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .herobg {
   background-position: center;
@@ -106,7 +123,8 @@ a {
   height: 200px;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .hero {
   background-attachment: absolute;
@@ -116,56 +134,68 @@ a {
   width: 90%;
   height: 75vh;
   display: flex;
-  align-items: flex-start; }
+  align-items: flex-start;
+}
 
 .hero__contenedor {
   padding: 100px 50px;
   color: #735F32;
   width: 60%;
-  gap: 10px; }
+  gap: 10px;
+}
 
 .hero__contenedor p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 40px;
   padding-right: 150px;
   margin: 15px 0;
-  color: #cfa544; }
+  color: #cfa544;
+}
 
 .hero__titulo {
   font-family: bebas;
   font-size: 80px;
-  color: #ff9d00; }
+  color: #ff9d00;
+}
 
 .wrap {
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 #margen-fila-menu {
-  margin-top: 1em; }
+  margin-top: 1em;
+}
 
 .column-2.carta {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  column-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
   row-gap: 1rem;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+}
 
 .plato-carta {
   display: flex;
   align-items: center;
   border: 2px solid #aa791d;
   border-radius: 6px;
-  margin-top: 2em; }
+  margin-top: 2em;
+}
 
 .img-plato-carta {
   display: flex;
   flex-basis: 15%;
   justify-content: center;
-  object-fit: cover; }
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .img-plato-carta img {
   max-width: 100px;
-  max-height: 75px; }
+  max-height: 75px;
+}
 
 .title-plato-carta {
   border: 1px solid #e5e5e5;
@@ -174,11 +204,13 @@ a {
   flex-basis: 40%;
   padding: 0 1rem;
   font-size: 10px;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .title-plato-carta p {
   font-family: bebas;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 .precio-plato-carta {
   display: flex;
@@ -186,96 +218,120 @@ a {
   justify-content: center;
   font-family: bebas;
   font-size: 30px;
-  object-fit: cover; }
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   background: #181818;
-  color: #fff; }
+  color: #fff;
+}
 
 .container {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5em; }
+  padding: 1.5em;
+}
 
 ul {
   list-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
 .logo {
   text-align: center;
-  font-size: 3em; }
+  font-size: 3em;
+}
 
 .logo span {
-  color: #C69749; }
+  color: #C69749;
+}
 
 .contact-wrapper {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
 
 .contact-wrapper > * {
-  padding: 1em; }
+  padding: 1em;
+}
 
 .contact-form {
-  background: #222222; }
+  background: #222222;
+}
 
 .contact-form form {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+}
 
 .contact-form form label {
-  display: block; }
+  display: block;
+}
 
 .contact-form form p {
   margin: 0;
-  padding: 1em; }
+  padding: 1em;
+}
 
 .contact-form form .block {
-  grid-column: 1 / 3; }
+  grid-column: 1/3;
+}
 
 .contact-form form button,
 .contact-form form input,
 .contact-form form textarea {
   width: 100%;
-  padding: .1em;
+  padding: 0.1em;
   border: none;
   background: none;
   outline: 0;
   color: #fff;
-  border-bottom: 1px solid #C69749; }
+  border-bottom: 1px solid #C69749;
+}
 
 .contact-form form button {
   background: #C69749;
   border: 0;
   text-transform: uppercase;
-  padding: 1em; }
+  padding: 1em;
+}
 
 .contact-form form button:hover,
 .contact-form form button:focus {
   background: #944f0f;
   color: #fff;
   transition: background-color 1s ease-out;
-  outline: 0; }
+  outline: 0;
+}
 
 /* CONTACT INFO */
 .contact-info {
-  background: rgba(255, 255, 255, 0.3); }
+  background: rgba(255, 255, 255, 0.3);
+}
 
 .contact-info h4,
 .contact-info ul,
 .contact-info p {
   text-align: center;
-  margin: 0 0 1rem 0; }
+  margin: 0 0 1rem 0;
+}
 
 @media (min-width: 700px) {
   .contact-wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr; }
+    grid-template-columns: 2fr 1fr;
+  }
   .contact-wrapper > * {
-    padding: 2em; }
+    padding: 2em;
+  }
   .contact-info h4,
   .contact-info ul,
   .contact-info p {
-    text-align: left; } }
+    text-align: left;
+  }
+}/*# sourceMappingURL=style.css.map */

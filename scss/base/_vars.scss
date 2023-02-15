@@ -1,3 +1,9 @@
+$font-main: bebas;
+$color-second: #C69749;
+$color-third:#ff9d00;
+
+$color-background1:#36626b;
+$color-background2:#443226;
 
 h1,
 h2,
@@ -8,7 +14,7 @@ h6,
 p,
 a,
 li {
-    font-family: bebas;
+    font-family: $font-main;
 }
 
 ul,
@@ -22,16 +28,15 @@ a {
 }
 
 .second-color {
-    color: #C69749;
-}
+color:$color-second;}
 
 .tercer-color {
     color: #e5e5e5;
 }
 
 .cuarto-color {
-    color: #ff9d00;
-    font-family: bebas;
+    color: $color-third;
+    font-family: $font-main;
 }
 
 .quinto-color {
@@ -41,7 +46,7 @@ a {
 .btn {
     color: #C69749;
     background-color: #36626b;
-    font-family: bebas;
+    font-family: $font-main;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +57,14 @@ a {
 }
 
 .hover-me:hover {
-    background-color: #443226;
-    color: #ff9d00;
+    background-color: $color-background2;
+    color: $color-third;
     cursor: pointer;
 }
+
+$font-main: bebas;
+$color-second: #C69749;
+$color-third:#ff9d00;
+
+$color-background1:#36626b;
+$color-background2:#443226;
