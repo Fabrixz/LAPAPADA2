@@ -51,20 +51,11 @@ color:$color-second;}
     align-items: center;
     justify-content: center;
 }
-.hover-me {
-    background-color: white;
-    transition: all 0.3s ease-in-out;
-}
 
-.hover-me:hover {
-    background-color: $color-background2;
-    color: $color-third;
-    cursor: pointer;
-}
 
 $font-main: bebas;
 $color-second: #C69749;
 $color-third:#ff9d00;
-
+$color-four: #e5e5e5;
 $color-background1:#36626b;
 $color-background2:#443226;
